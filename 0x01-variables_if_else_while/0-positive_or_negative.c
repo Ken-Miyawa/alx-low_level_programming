@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 
-/* more headers goes there */
-/** main - Entry point
- * Description - Prints if random generated number -tve , zero or +tve
+/**
+ * main -Entry point
+ * Description - Program that prints if random generated number positive, zero
+ * or negative.
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
@@ -21,5 +21,4 @@ int main(void)
 	else
 		printf("%d is positive\n", n);
 	return (0);
-
 }
